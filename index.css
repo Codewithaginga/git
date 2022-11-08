@@ -1,9 +1,35 @@
 body {
     background-color: black;
+    font-family: sans-serif;
+    font-weight: normal;
     }
 
+h1 {
+    color: antiquewhite;
+    text-align: center;
+}
 p{
     color: #faebd7;
-    font-size: 4rem;
-    font-style: italic;
+    font-size: 1rem;
+    
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.box-2{
+    background-color: rebeccapurple;
+    border: 5px red solid;
+    border-width: 3px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.box-2 h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    text-decoration: underline;
+    text-transform: uppercase;
 }
